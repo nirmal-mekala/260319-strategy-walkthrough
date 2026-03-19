@@ -38,7 +38,7 @@ export default function ApiViewer({ apiMode }: ApiViewerProps) {
 
 	/*
 	 *
-	 *  CHALLENGE: Refactor handleFetch so that it only reads `apiMode` once.
+	 *  CHALLENGE: Refactor `handleFetch` so that it only reads `apiMode` once.
 	 *
 	 *  BONUS PTS: Do it without `if`, a ternary operator (`?` / `:`), or a `switch` statement.
 	 *
